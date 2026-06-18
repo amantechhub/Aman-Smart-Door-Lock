@@ -1,49 +1,17 @@
-# Aman Smart Door Lock
+# aman_door_lock
 
-## Overview
-An IoT-Based Smart Door Lock System developed using ESP32 and Flutter. The system uses QR Code Authentication to verify users and control a servo-based door locking mechanism.
+A new Flutter project.
 
-## Features
-- QR Code Authentication
-- ESP32 Wi-Fi Communication
-- Flutter Mobile Application
-- Servo Motor Door Lock
-- Green LED Access Granted Indicator
-- Red LED Access Denied Indicator
-- Security Alert Buzzer
-- Real-Time User Verification
-- Offline Local Network Operation
+## Getting Started
 
-## Hardware Components
-- ESP32 Dev Module
-- SG90 Servo Motor
-- Buzzer
-- Red LED
-- Green LED
-- Li-ion Battery
-- QR Code ID Cards
+This project is a starting point for a Flutter application.
 
-## Software Technologies
-- Flutter
-- Dart
-- Arduino IDE
-- ESP32 Libraries
+A few resources to get you started if this is your first Flutter project:
 
-## Working
-1. User scans QR code using Flutter App.
-2. QR data is verified.
-3. ESP32 receives unlock command through Wi-Fi.
-4. Servo motor opens the gate.
-5. Green LED indicates successful access.
-6. Invalid QR codes trigger Red LED and Buzzer alert.
-7. Gate automatically locks after a few seconds.
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-## Future Enhancements
-- Fingerprint Authentication
-- Face Recognition
-- Cloud Database Integration
-- Access History Logs
-- Remote Monitoring
-
-## Developer
-Aman Maurya
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
